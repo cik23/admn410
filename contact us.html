@@ -1,0 +1,111 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>our team</title>
+<style type="text/css">	
+
+		table{
+	border: thin none #460000;
+		}
+		
+		td {		  
+		  text-align:center;		  
+		}
+		
+		p{
+	color:#000000;
+	font-size:12pt;
+	text-align:center;
+	font-family:'Times New Roman', arial, 'sans serif';
+	line-height: 28px;		  
+		}			
+		a:link, a:visited, a:active {
+		 
+		  text-decoration:none;	
+		}
+
+		a:hover {
+		  text-decoration:underline;
+		  color:#999999;
+		}
+body {
+	background-repeat:round;
+	background-image: url(iamges/bg2.jpg);
+	background-color: #FFFBCB;
+}
+.STYLE2 {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.STYLE3 {color: #460000}
+.STYLE4 {color: #FFFFFF}
+</style>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBzE9xAESye6Kde-3hT-6B90nfwUkcS8Yw&sensor=false"></script>
+</head>
+<body >
+<table width="100%" height="45"  >
+<tr>
+	<td width="25%" ><a href="index.html"></a><a href="index.html"></a></td>
+	<td width="179" height="40" bgcolor="#460000" ><a href="index.html" class="STYLE2">About Us</a></td>
+	<td width="179" bordercolor="#F0F0F0" bgcolor="#460000" ><a href="our team.html" class="STYLE2">Our Team</a></td>
+	<td width="179" bgcolor="#460000" ><a href="products.html" class="STYLE2"><b>Products</b></a></td>
+	<td width="179" bgcolor="#460000" ><a href="policies.html" class="STYLE2"><b>Policies</b></a></td>
+	<td width="188" bgcolor="#460000" ><a href="contact us.html" class="STYLE2"><b>Contact Us</b></a></td>
+</tr>
+</table>
+<table width="100%"  align="right" > 
+<tr height="10"></tr>
+<tr><td width="25%"></td>
+  <td width="75%">
+  <table width="100%" border="1" align="center" cellspacing="1" bordercolor="#460000">
+    <tr>
+     <td  width="50%" align="center" ><div id="googleMap" style="width:500px;height:400px;"></div></td>
+     <td align="center" valign="middle"><br>
+  <h3><strong>Corporate Office</strong></h3>
+<p align="center">
+Postal Address: 7  Congress CT, The Cottages of Durham, Durham, NH, 03824, USA<br>
+Phone:603-213-2134<br>
+Fax:604-234-5511<br>
+E-Mail:<span class="STYLE4"><a href="mailto:DHP@gmail.com?subject=Corporate Inquiry" class="STYLE3">DHP@gmail.com</a></span></P>
+
+ <h3><strong>Regional Offices 1</strong></h3>
+<p align="center">
+Postal Address:77 Washington way, The Cottages of Durham, Durham, NH,  03824, USA<br>
+Phone: 712-213-0091<br>
+Fax:898-009-9912<br>
+E-Mail:<a href="mailto:DHP77@gmail.com?subject=Regional Office Inquiry" class="STYLE3">DHP77@gmail.com</a></P>
+<h3><strong>Regional Offices 1</strong></h3>
+<p align="center">
+Postal Address: 9 Santee Ct, The Cottages of Durham, Durham, NH, 03824,USA<br>
+Phone: 901-233-2344<br>
+Fax:123-232-5412<br>
+E-Mail:<a href="mailto:DHP09@gmail.com?subject=Regional Office Inquiry" class="STYLE3">DHP09@gmail.com
+</a></P> </td>
+    </tr>
+    <tr>
+     <td height="37" colspan="2" align="center" valign="middle" bgcolor="#460000"> <a href="https://www.facebook.com/Aaron.xu.9615" class="STYLE4"><strong>Find us on Facebook</strong></a></td>
+      </tr>
+  </table></td>
+</tr>
+<td colspan="4">&nbsp;<br>
+<small><small> Copyright&copy;2007 Durham House of Pets <small><small></td>
+</table>
+</body>
+<script type='text/javascript'>
+function initialize() 
+{ 
+
+var mapProp = { center:new google.maps.LatLng(43.1501781,-70.96000129999999), 
+  zoom:15, mapTypeId:google.maps.MapTypeId.ROADMAP }; 
+
+var map=new google.maps.Map(document.getElementById("googleMap"), mapProp); 
+var marker = new google.maps.Marker({
+                position: new google.maps.LatLng(43.1501781,-70.96000129999999), 
+                map: map,
+                
+            });
+			} 
+google.maps.event.addDomListener(window, 'load', initialize);
+
+</script>
+</html>
